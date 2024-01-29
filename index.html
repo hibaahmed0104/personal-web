@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">AA</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Experiences</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">welcome!</h1>
+        <p class="hero__description">studying cs + design @ georgia tech</p>
+      </div>
+    </div>
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+            <img src="profile.jpeg" alt="profile">
+        </div>
+        <div class="main__content">
+          <h1>My name is Arzeen Hiba Ahmed.</h1>
+          <p>I am a second-year Computational Media major with a focus on Interaction Design and Intelligence at the Georgia Institute of Technology. I am especially interested in the field of UX/UI design and creating technology that is intuitive, accessible, and adaptable to all users. I thrive on crafting user-centric experiences that prioritize functionality without compromising aesthetics.</p>
+          <p> </p>
+          <button class="main__btn"><a href="connectpage.html">Connect With Me</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <h1>My Experiences</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Instructify</h2>
+          <p>UX Design Intern</p>
+          <p>Instructify is an AI teaching assistant that scans documents and provides students with answers relating to them.</p>
+          <p>I am working with the product lead to design a statistics page for the application in which users can view usablity trends and frequently searched topics.</p>
+        </div>
+        <div class="services__card">
+          <h2>Product@GT</h2>
+          <p>Fellowship Program</p>
+          <p>Product@GT is a student organization that exposes students to all things Product Management. As a fellow in the fellowship program, I got to interact and connect with other Prodcut Managers.</p>
+          <p>We also conducted case studies and worked with peers to simulate the product cycle.</p>
+        </div>
+        <div class="services__card">
+          <h2>HexLabs</h2>
+          <p>Operations Team</p>
+          <p>As a member of the operations team, I help organize the Horizons hackathon, including navigating the layout of the event and coordinating and placing orders for merchandise. </p>
+          <p>Will work to organize HackGT in the fall.</p>
+        </div>
+        <div class="services__card">
+          <h2>Design Club</h2>
+          <p>General Member</p>
+          <p>As a design team member this semester, we were able to learn all about design principles. This included UX/UI elements, figma prototyping, and various other workshops.</p>
+          <p>I was able to conduct a case study on a sample instagram page, and learn about color theory in user design.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
